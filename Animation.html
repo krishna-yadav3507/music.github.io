@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+ <head> 
+  <style type="text/css">
+p{border:30px solid white;
+position:fixed;
+box-sizing:border-box;
+filter: brightness(70%);
+filter: contrast(100%);
+filter:blur(1px);
+border-radius:50%;
+} 
+img{max-width:343px;
+max-height:343px;}
+.box1{
+z-index:1;
+width:100px;
+height:100px;
+top:41%;
+left:38%;
+animation:aditya 5s ease-out 1s infinite alternate;}
+.box2{
+z-index:2;
+width:150px;
+height:150px;
+top:37.5%;
+left:32%;
+animation:aditya 5s ease-out 2s infinite alternate;}
+.box3{
+z-index:3;
+width:200px;
+height:200px;
+top:34%;
+left:26%;
+animation:aditya 5s ease-out 3s infinite alternate;}
+.box4{
+z-index:4;
+width:250px;
+height:250px;
+top:30.5%;
+left:20%;
+animation:aditya 5s ease-in 4s infinite alternate;}
+.box5{
+z-index:5;
+width:300px;
+height:300px;
+top:27%;
+left:14%;
+animation:aditya 5s linear 5s infinite alternate;}
+.box6{
+z-index:6;
+width:350px;
+height:350px;
+top:23%;
+left:8%;
+animation:aditya 5s ease-out 6s infinite alternate;}
+.box11{
+z-index:-1;
+width:100px;
+height:100px;
+top:0%;
+left:0%;
+animation:aditya 5s ease-out 1s infinite alternate;}
+.box21{
+z-index:-2;
+width:150px;
+height:150px;
+top:0%;
+left:0%;
+animation:aditya 5s ease-out 2s infinite alternate;}
+.box31{
+z-index:-3;
+width:200px;
+height:200px;
+top:0%;
+left:0%;
+animation:aditya 5s ease-out 3s infinite alternate;}
+.box41{
+z-index:-4;
+width:250px;
+height:250px;
+top:0%;
+left:0%;
+animation:aditya 5s ease-out 4s infinite alternate;}
+.box51{
+z-index:-5;
+width:300px;
+height:300px;
+top:0%;
+left:0%;
+animation:aditya 5s ease-out 5s infinite alternate;}
+.box61{
+z-index:-6;
+width:350px;
+height:350px;
+top:0%;
+left:0%;
+animation:aditya 5s ease-out 6s infinite alternate;}
+.box111{
+z-index:7;
+width:100px;
+height:100px;
+bottom:0%;
+right:0%;
+animation:aditya 5s ease-out 1s infinite alternate;}
+.box211{
+z-index:-8;
+width:150px;
+height:150px;
+bottom:0%;
+right:0%;
+animation:aditya 5s ease-out 2s infinite alternate;}
+.box311{
+z-index:-9;
+width:200px;
+height:200px;
+right:0%;
+bottom:0%;
+animation:aditya 5s ease-out 3s infinite alternate;}
+.box411{
+z-index:-11;
+width:250px;
+height:250px;
+right:0%;
+bottom:0%;
+animation:aditya 5s ease-out 4s infinite alternate;}
+.box511{
+z-index:-15;
+width:300px;
+height:300px;
+right:0%;
+bottom:0%;
+animation:aditya 5s ease-out 5s infinite alternate;}
+.box611{
+z-index:-16;
+width:350px;
+height:350px;
+right:0%;
+bottom:0%;
+animation:aditya 5s ease-out 6s infinite alternate;}
+body{background: black;
+position: fixed;
+}
+div{font-variant: small-caps;
+font-weight: bolder;
+font-style: italic;
+position:fixed;
+top:40%;
+left:120%;
+display: inline;
+font-size:60px;
+text-decoration-color:red;
+text-decoration-style: underline;
+text-shadow:-5px -5px white;
+color: black;
+animation: a 2s linear 1s infinite alternate;}
+@keyframes a{
+0%{top:60%;
+z-index:20;
+left:0%;
+filter: blur;
+color: black;
+transform: rotateZ(45deg);
+transform: matrix(1,2,3,4,2,1,2);
+transform:scale(1);}
+20%{top:60%;
+left:40%;z-index:15;
+filter:inver(70%);
+color: black;
+transform: rotateZ(100deg);
+transform: matrix(1,2,3,4,2,1,2);
+transform:scale(1);}
+60%{top:60%;
+left:0%;z-index:20;
+color:blue;
+filter: brightness(70%);
+transform: rotateX(45deg);
+transform: matrix(1,2,3,4,2,1,2);
+transform:scale(0.5);}
+100%{top:60%;
+left:20%;z-index:20;
+color: black;
+transform: rotateY(45deg);
+transform: matrix(1,2,3,4,2,1,2);
+transform:scale(1.5);}
+}
+@keyframes aditya{
+0%{transform: rotate(45deg);
+transform:skew(45deg);
+border-color:red;
+transform: rotateX(45deg);}
+40%{transform: rotate(145deg);
+transform:skew(145deg);
+border-color:blue;
+transform: rotateX(145deg);}
+50%{transform: rotate(90deg);
+transform:skew(90deg);
+border-color:green;
+transform: rotateX(360deg);}
+60%{transform: rotate(30deg);
+transform:skew(360deg);
+border-color:aqua;
+transform: rotateY(450deg);}
+70%{transform: rotate(180deg);
+transform:skew(5deg);
+border-color:olive;
+transform: rotateX(45deg);}
+80%{transform: rotate(580deg);
+transform:skew(405deg);
+border-color:navy;
+transform: rotateZ(45deg);}
+100%{transform: rotate(500deg);
+transform:skew(90deg);
+border-color: purple;
+transform: rotateX(145deg);}
+}
+</style> 
+ </head> 
+ <body> 
+  <p class="box1"></p> 
+  <p class="box2"></p> 
+  <p class="box3"></p> 
+  <p class="box4"></p> 
+  <p class="box5"></p> 
+  <p class="box6"></p> 
+  <p class="box11"></p> 
+  <p class="box21"></p> 
+  <p class="box31"></p> 
+  <p class="box41"></p> 
+  <p class="box51"></p> 
+  <p class="box61"></p> 
+  <p class="box111"></p> 
+  <p class="box211"></p> 
+  <p class="box311"></p> 
+  <p class="box411"></p> 
+  <p class="box511"></p> 
+  <p class="box611"></p> 
+ </body>
+</html>
